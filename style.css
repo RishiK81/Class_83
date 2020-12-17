@@ -1,0 +1,117 @@
+body {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: not-allowed;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#Canvas1 {
+    border-width: 10px;
+    background-color: white;
+    border-style: ridge;
+}
+
+
+#clearArea {
+     background-color: #53BED2; 
+     border: none; 
+     color: white; 
+     padding: 10px 42px; 
+     font-size: 16px; 
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+
+
+#redButton{
+    background-color: #ff0000; 
+    border: none; 
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#orangeButton{
+    background-color: #ff8c00; 
+    border: none; 
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#yellowButton{
+    background-color: #ffff00; 
+    border: none; 
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#greenButton{
+    background-color: #7cfc00; 
+    border: none; 
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#blueButton {
+    background-color: #53BED2; 
+    border: none; 
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#pinkButton {
+    background-color: #ffb6c1; 
+    border: none; 
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#blackButton {
+    background-color: #000000; 
+    border: none; 
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.block {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .top_margin {
+    margin-top: 10px;
+  }
+
+  .row {
+      width: 100%;
+      margin-left: 450px;
+      margin-top: 10px;
+
+  }
